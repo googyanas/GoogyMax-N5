@@ -27,7 +27,7 @@ rm -rf /home/googy/Googy-Max-N5/Release/system/lib/modules/*
 find -name '*.ko' -exec cp -av {} /home/googy/Googy-Max-N5/Release/system/lib/modules/ \;
 ${CROSS_COMPILE}strip --strip-unneeded /home/googy/Googy-Max-N5/Release/system/lib/modules/*
 
-# ./tools/dtbtool3 --force-v3 -o /home/googy/Googy-Max-N5/Out/dt.img -s 4096 -p ./scripts/dtc/ arch/arm64/boot/dts/
+./tools/dtbtool -o /home/googy/Googy-Max-N5/Out/dt.img -s 4096 -p ./scripts/dtc/ arch/arm64/boot/dts/
 
 cd /home/googy/Googy-Max-N5/Out
 ./packimg.sh

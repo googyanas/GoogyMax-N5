@@ -129,3 +129,4 @@ GTAGS
 /scripts/dtc/dtc-parser.tab.h
 /tools/dt.img
 fips_fmp_utils
+/arch/arm64/boot/Image.gz-dtb
