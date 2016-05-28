@@ -387,7 +387,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
 		   -fno-delete-null-pointer-checks \
 		   -fdiagnostics-show-option \
-		   -mtune=cortex-a57.cortex-a53 -std=gnu89 -Wno-array-bounds \
+		   -mtune=cortex-a57.cortex-a53 -std=gnu89 -Wno-array-bounds -fno-pic \
                    -Wno-memset-transposed-args -Wno-discarded-array-qualifiers -Wno-logical-not-parentheses -Wno-array-bounds -Wno-switch -Wno-switch-bool -Wno-unused-variable -Wno-misleading-indentation
 
 KBUILD_AFLAGS_KERNEL :=

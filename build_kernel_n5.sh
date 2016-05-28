@@ -32,8 +32,10 @@ cd /home/anas/N5/Out
 cd /home/anas/N5/Release
 zip -r ../Googy-Max-N5_Kernel_${1}.zip .
 
-adb push /home/anas/N5/Googy-Max-N5_Kernel_${1}.zip /sdcard/Googy-Max-N5_Kernel_${1}.zip
+# adb push /home/anas/N5/Googy-Max-N5_Kernel_${1}.zip /sdcard/Googy-Max-N5_Kernel_${1}.zip
 
-adb kill-server
+# adb kill-server
+
+cp -f /home/anas/N5/Googy-Max-N5_Kernel_${1}.zip /media/sf_VM_Shared_Folder/
 
 echo "Googy-Max-N5_Kernel_${1}.zip READY !"
