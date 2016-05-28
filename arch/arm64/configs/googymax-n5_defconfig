@@ -4115,7 +4115,7 @@ CONFIG_EXFAT_FS=y
 CONFIG_EXFAT_VIRTUAL_XATTR=y
 CONFIG_EXFAT_VIRTUAL_XATTR_SELINUX_LABEL="u:object_r:sdcard_external:s0"
 CONFIG_EXFAT_SUPPORT_STLOG=y
-# CONFIG_NTFS_FS is not set
+CONFIG_NTFS_FS=m
 
 #
 # Pseudo filesystems
@@ -4166,10 +4166,10 @@ CONFIG_CRAMFS=y
 # CONFIG_UFS_FS is not set
 # CONFIG_F2FS_FS is not set
 CONFIG_NETWORK_FILESYSTEMS=y
-# CONFIG_NFS_FS is not set
+CONFIG_NFS_FS=m
 # CONFIG_NFSD is not set
 # CONFIG_CEPH_FS is not set
-# CONFIG_CIFS is not set
+CONFIG_CIFS=m
 # CONFIG_NCP_FS is not set
 # CONFIG_CODA_FS is not set
 # CONFIG_AFS_FS is not set
